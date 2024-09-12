@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { CartComponent } from './shared/cart/cart.component';
+import { CardComponent } from './shared/card/card.component';
 import { NewTaskComponent } from './tasks/new-task/new-task.component';
 import { TaskComponent } from './tasks/task/task.component';
 import { TasksComponent } from './tasks/tasks.component';
@@ -15,7 +15,7 @@ import { UserComponent } from './user/user.component';
     AppComponent,
     HeaderComponent,
     UserComponent,
-    CartComponent,
+    CardComponent,
     TasksComponent,
     TaskComponent,
     NewTaskComponent,
